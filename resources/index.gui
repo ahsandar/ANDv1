@@ -1,0 +1,84 @@
+<svg id="root">
+  
+ 
+  <rect id="background" /> 
+
+  <g id="hr"> 
+    <text id="hr-count" class="count sideCount">56</text>
+    <image id="hr-icon-systole" class="icon" href="stat_hr_solid_24px.png" />
+    <image id="hr-icon-diastole" class="icon" href="stat_hr_solid_24px.png" />
+    <g>
+      <text id="hr-resting" class="count sideCount">56</text>
+       <text id="hr-zone" class="count sideCount">56</text>
+      </g>
+  </g> 
+  
+  <g id="bm">
+    <text id="bmr-zone">259</text>
+    <text id="bmi-zone">259</text>
+   
+   </g>
+  
+  <g id="barometer">
+     <text id="barom-zone"></text>
+    <image id="barom-icon" class="bar-icon" href="reading_barometer_42px.png" />
+  </g>
+ 
+  <g id="steps">
+    <rect class="bg"/>  
+    <circle class="tgt-no"/>  
+    <circle class="tgt-yes"/>  
+    <rect class="progress"/>  
+    <text class="count">777</text>
+    <image  class="icon" href="stat_steps_solid_24px.png" />
+  </g>
+  <g id="distance">
+    <rect class="bg"/>  
+    <circle class="tgt-no"/>  
+    <circle class="tgt-yes"/>  
+    <rect class="progress"/>    
+    <text class="count">777</text>
+    <image id="distance-icon" class="icon" href="stat_dist_solid_24px.png" />
+  </g>
+  <g id="elevationGain">
+    <rect class="bg"/>  
+    <circle class="tgt-no"/>  
+    <circle class="tgt-yes"/>  
+    <rect class="progress"/>    
+    <text class="count">777</text>
+    <image id="elevationGain-icon" class="icon" href="stat_floors_solid_24px.png" />
+  </g>
+  <g id="calories">
+    <rect class="bg"/>  
+    <circle class="tgt-no"/>  
+    <circle class="tgt-yes"/>  
+    <rect class="progress"/>    
+    <text class="count">777</text>
+    <image id="calories-icon" class="icon" href="stat_cals_solid_24px.png" />
+  </g> 
+  <g id="activeMinutes">
+    <rect class="bg"/>  
+    <circle class="tgt-no"/>  
+    <circle class="tgt-yes"/>  
+    <rect class="progress"/>    
+    <text class="count">777</text>
+    <image id="activeMinutes-icon" class="icon" href="stat_am_solid_24px.png" />
+  </g>
+  
+  <g>
+  <rect id="battery-line" x="0%" y="0%" width="100%" height="2%" fill="fb-white" />
+  </g>
+  
+  
+  <text id="am-pm"/>
+  <text id="time"/>
+    <text id="second"/>
+  
+  <g id="calendar">
+    <text id="day"/>
+    <text id="date"/>
+  </g>
+  
+  
+
+</svg>
