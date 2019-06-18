@@ -1,3 +1,5 @@
+`Github` repo is a mirror of `Gitlab` repo
+
 # AND v1
 
 `Fitbit` clockface for `ionic` and `versa`
